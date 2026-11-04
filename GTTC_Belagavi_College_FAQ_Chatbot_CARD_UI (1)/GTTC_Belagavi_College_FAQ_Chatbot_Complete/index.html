@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GTTC Belagavi • College FAQ AI</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+  <div class="brand"><div class="logo">🎓</div><div><b>GTTC AI</b><small>Belagavi FAQ Assistant</small></div></div>
+  <button class="new" id="newChat">＋ New chat</button>
+  <div class="label">FAQ CATEGORIES</div>
+  <button class="nav" data-q="What are the college working hours?">🕘 College timings</button>
+  <button class="nav" data-q="What departments and courses are available?">📚 Departments / Courses</button>
+  <button class="nav" data-q="Tell me about AIML.">🤖 AIML</button>
+  <button class="nav" data-q="How can I get admission?">📝 Admission</button>
+  <button class="nav" data-q="What is the fee structure?">💳 Fees</button>
+  <button class="nav" data-q="What short term courses are available?">⚙️ Short-term training</button>
+  <button class="nav" data-q="How can I contact GTTC Belagavi?">📞 Contact</button>
+  <button class="nav" data-q="Where is GTTC Belagavi located?">📍 Location</button>
+  <button class="nav" data-q="Tell me about placements.">💼 Placements</button>
+  <div class="label">TOOLS</div>
+  <button class="nav" id="nlpBtn">🧠 Show NLP analysis</button>
+  <button class="nav" id="themeBtn">☾ Toggle theme</button>
+  <button class="nav" id="clearBtn">🗑 Clear chat</button>
+  <a class="nav" target="_blank" href="https://gttc.karnataka.gov.in/9/belgaum/en">🌐 Official GTTC website ↗</a>
+  <div class="sidefoot"><span>●</span> Rule-based NLP • Student Project</div>
+</aside>
+
+<main class="main">
+<header>
+  <div><div class="title">GTTC Belagavi College FAQ</div><div class="sub">AI-style assistant • NLP Lab Project</div></div>
+  <div class="headbuttons"><button id="copyBtn">⧉</button><button id="theme2">☼</button></div>
+</header>
+
+<section class="chat" id="chat">
+  <div class="welcome">
+    <div class="hero">🎓</div>
+    <h1>How can I help you?</h1>
+    <p>Ask a question about GTTC Belagavi. I use preprocessing, tokenization, stopword handling, pattern matching and a predefined FAQ knowledge base.</p>
+    <div class="cards">
+      <button data-q="What are the college working hours?"><b>🕘 College timings</b><span>Ask about working hours</span></button>
+      <button data-q="What courses are available?"><b>📚 Courses</b><span>Explore GTTC programmes</span></button>
+      <button data-q="Tell me about AIML."><b>🤖 AIML</b><span>Artificial Intelligence & ML</span></button>
+      <button data-q="How can I get admission?"><b>📝 Admission</b><span>Eligibility and process</span></button>
+      <button data-q="What is the fee structure?"><b>💳 Fees</b><span>Programme fee information</span></button>
+      <button data-q="What short term courses are available?"><b>⚙️ Training</b><span>Short-term programmes</span></button>
+    </div>
+  </div>
+</section>
+
+<div class="chips">
+ <button data-q="What is the contact number?">Contact</button>
+ <button data-q="What is the GTTC address?">Address</button>
+ <button data-q="What is the website?">Website</button>
+ <button data-q="What are the exam timings?">Exams</button>
+ <button data-q="Tell me about placements.">Placements</button>
+</div>
+
+<div class="composer">
+ <textarea id="input" rows="1" placeholder="Message GTTC Belagavi AI Assistant..."></textarea>
+ <button id="send">➤</button>
+</div>
+<div class="note">Responses are predefined for this lab project. Verify current information on the official GTTC website.</div>
+</main>
+
+<div class="analysis-panel" id="analysis">
+ <div class="analysis-head"><b>🧠 NLP Analysis</b><button id="closeAnalysis">×</button></div>
+ <div id="analysisBody">Ask a question to see tokenization, stopword removal, intent and sentiment.</div>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

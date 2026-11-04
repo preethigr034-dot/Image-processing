@@ -1,0 +1,18 @@
+GTTC BELAGAVI FAQ CHATBOT — SAMPLE TEST CASES
+
+TC01 | What are the college working hours? | timings
+TC02 | What departments are available? | courses
+TC03 | What courses are available? | courses
+TC04 | Tell me about AIML. | aiml
+TC05 | How can I get admission? | admission
+TC06 | What is the fee structure? | fees
+TC07 | How can I contact the college? | contact
+TC08 | Where is the college website? | website
+TC09 | What are the library timings? | library
+TC10 | When are the exams? | exam
+TC11 | What short term courses are available? | short_term
+TC12 | Where is GTTC Belagavi located? | location
+TC13 | Tell me about placements. | placement
+TC14 | I love this chatbot, thanks! | sentiment: Positive
+TC15 | I have a problem and this is difficult. | sentiment: Negative
+TC16 | xyz abc random question | fallback
